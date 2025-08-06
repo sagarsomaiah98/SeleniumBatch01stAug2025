@@ -1,0 +1,36 @@
+package Locators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginOpt {
+	
+	static WebDriver driver;
+	
+	public static void type(String xpathLocator,String value) {
+		
+		driver.findElement(By.xpath(xpathLocator)).sendKeys(value);
+		
+	}
+	
+	public static void click(String xpathLocator) {
+		driver.findElement(By.xpath(xpathLocator)).click();
+		
+		
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.saucedemo.com/");
+		Thread.sleep(1000);
+		type("//input[@id='user-name']","standard_user");
+		type("//input[@id='password']","secret_sauce");
+		click("//input[@id='login-button']");
+		
+		driver.quit();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Locators;
+
+public class StaticEx {
+	
+	public void method1() {
+		
+		System.out.println("calling method1");
+	}
+	
+	public void method2() {
+		System.out.println("calling method 2");
+	}
+
+	public static void main(String[] args) {
+		
+		StaticEx s = new StaticEx();
+		s.method1();
+		s.method2();
+	}
+
+}
