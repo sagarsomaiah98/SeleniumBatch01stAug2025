@@ -9,8 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class LogOutTest {
 
-	public static void main(String[] args) throws InterruptedException {
-		
+	public void logout() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
@@ -23,6 +22,11 @@ public class LogOutTest {
 		driver.findElement(By.xpath("//a[@id='logout_sidebar_link']")).click();
 		Thread.sleep(2000);
        driver.quit();
+		
+	}
+	public static void main(String[] args) throws InterruptedException {
+		
+		
 	}
 
 }

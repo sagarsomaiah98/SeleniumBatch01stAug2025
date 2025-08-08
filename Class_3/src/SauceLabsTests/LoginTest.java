@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest {
-
-	public static void main(String[] args) throws InterruptedException {
-
+	public void login() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
@@ -28,6 +26,13 @@ public class LoginTest {
 		}
 		Thread.sleep(2000);
 		driver.quit();
+
+	
+	
+		
+	}
+
+	public static void main(String[] args) throws InterruptedException {
 
 	}
 
