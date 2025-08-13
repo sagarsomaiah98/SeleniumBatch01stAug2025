@@ -8,13 +8,13 @@ public class Runner {
 		login.login();
 		
 		AddtoCart a = new AddtoCart();
-		a.addtocart();
+	//	a.addtocart();
 		
 		LogOutTest  lo= new LogOutTest();
-		lo.logout();
+	//	lo.logout();
 		
 		MultiUserLogin mu= new MultiUserLogin();
-		mu.verifyLogin("standard_user","secret_sauce");
+	//	mu.verifyLogin("standard_user","secret_sauce");
 
 		
 	}

@@ -12,7 +12,8 @@ public class Frames_Example {
 		driver.manage().window().maximize();
 		driver.get("https://testing.qaautomationlabs.com/iframe.php");
 		driver.switchTo().frame("iframe1");
-		driver.findElement(By.xpath("button[type='submit']")).click();
+		driver.findElement(By.xpath("//button[normalize-space()='CLick Me']")).click();
+		System.out.println("done");
 
 		
 
