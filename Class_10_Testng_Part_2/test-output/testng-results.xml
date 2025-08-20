@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-20T07:27:29 IST" name="Suite" finished-at="2025-08-20T07:27:30 IST" duration-ms="229">
+    <groups>
+    </groups>
+    <test started-at="2025-08-20T07:27:29 IST" name="chromeTest" finished-at="2025-08-20T07:27:29 IST" duration-ms="73">
+      <class name="Parameters.ParametersEx">
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Parameters.ParametersEx@223aa2f7]" started-at="2025-08-20T07:27:29 IST" name="logintest" finished-at="2025-08-20T07:27:29 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://saucedemo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- Parameters.ParametersEx -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-08-20T07:27:30 IST" name="firefoxTest" finished-at="2025-08-20T07:27:30 IST" duration-ms="5">
+      <class name="Parameters.ParametersEx">
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Parameters.ParametersEx@2c35e847]" started-at="2025-08-20T07:27:30 IST" name="logintest" finished-at="2025-08-20T07:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://saucedemo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- Parameters.ParametersEx -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2025-08-20T07:27:30 IST" name="edgeTest" finished-at="2025-08-20T07:27:30 IST" duration-ms="5">
+      <class name="Parameters.ParametersEx">
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Parameters.ParametersEx@74751b3]" started-at="2025-08-20T07:27:30 IST" name="logintest" finished-at="2025-08-20T07:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://saucedemo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[virtual_user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- Parameters.ParametersEx -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
